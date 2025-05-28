@@ -1,0 +1,251 @@
+h1, p {
+    text-align: center;
+  }
+  img {
+    max-width: 100%;
+    max-height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+.main-header {
+    background-color: rgb(233, 160, 58);
+    opacity: 95%;
+    position: fixed;
+    top: 0;
+    right: 0; 
+    left: 0;
+    height: 48px;  
+    z-index: 1;
+ }
+ .header-info {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: rgb(219, 84, 75);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px;
+ }
+ .header-info a {
+    padding: 0;
+    text-decoration: none;
+ }
+ .header-info a:hover {
+    background-color: transparent
+ }
+nav {
+    position: absolute;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+  }
+  
+  a:hover {
+    background-color: rgb(251, 199, 131);
+    opacity: 50%;
+  }
+  .set {
+    margin-top: 5%;
+    color: rgb(98, 153, 255);
+  }
+  .title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.items {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: gainsboro;
+    z-index: 0;
+}
+.portrait {
+    width: 260px;
+    height: 350px;
+}
+img {
+    opacity: 0.95;	    
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(50, 50, 50);	   
+    box-shadow:8px 8px 8px gray; 
+ }
+ img:hover {
+    opacity: 1;	   
+    transform: scale(1.1, 1.1);
+    z-index: -1;
+ }
+ h3, p {
+    text-align: center;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+ }
+ body { 
+    background-image: url("assets/toybg.jpg");
+    background-size: cover;    
+ }
+ section.cover { 
+    background-image: url("assets/toybg.jpg");
+    background-size: cover;    
+}
+table, tr, th, td {
+    border: 3px solid rgb(177, 177, 255);  
+    color: rgb(87, 177, 255);
+
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    background-color: rgb(109, 203, 211);
+    width: 300px;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 20px;
+}
+h1.name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: black;
+}
+h2.price {
+    font-size: 38px;
+    color: black;
+}
+
+.list {
+    list-style-type: disc;
+    margin-bottom: 50px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list li {
+    margin-top: 20px;
+    color: black;
+}
+
+hr {
+    height: 7px;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(229, 234, 109);
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+button {
+  background-color: rgba(75, 183, 219, 0.616);
+  border-radius: 8px;
+  color: white;
+  padding: 8px;
+  border: none;
+  font-size: 40pt;
+}
+button:hover {
+  transform: scale(1.1, 1.1);
+  background-color: rgb(75, 92, 219);
+  cursor: pointer;
+}
+div.about {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background-color: rgb(255, 183, 74);
+  width: 100%;
+}
+
+.about {
+  text-align: left;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+
+img.about-us {
+  width: 300px;
+}
+footer {
+  background-image:linear-gradient(rgb(172,167,180),rgb(200,232,204))
+}
+
+.main-footer { 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left-footer {
+  margin-right: auto; 
+  margin-left: 20px;
+}
+
+.right-footer {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.center-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info-left {
+  color: rgb(255, 133, 84);
+  text-align: left;
+  width: 100%;
+}
+.info-right {
+  color: rgb(255, 133, 84);
+  text-align: right;
+  width: 100%;
+}
+
+.info-center {
+  color: rgb(255, 133, 84);
+  text-align: center;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 3px solid rgb(244, 255, 147);
+}
+ *{
+  font-family: "Playpen Sans Deva", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+.table{
+  margin-left: 360px;
+}
+@media (max-width: 600px) {
+  * {
+      font-size: 2vw;
+      margin: 2px;
+    }
+}
